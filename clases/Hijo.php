@@ -13,7 +13,7 @@ class Hijo extends Padre{
         $this->email=$email;
     }
     // Mostrar información
-    public function info()
+    public function info():string
     {
         return "Vive en $this->ciudad con el email $this->email";
     }

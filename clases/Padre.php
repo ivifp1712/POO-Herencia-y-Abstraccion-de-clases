@@ -17,7 +17,7 @@ abstract class Padre{
         echo "<i>hola, me llamo $nombre</i>";
     }
     // método en Padre llamado verTareas
-    public function verTareas(string $grado)
+    public function verTareas(string $grado):string
     {
         if ($grado == "urgente"){
             return "Las tareas urgentes son: ";
